@@ -1,0 +1,290 @@
+/*ruptura a partir de 600px*/
+@media screen  and (min-width: 600px)
+{
+    body {
+        font-family: 'Miriam Libre', sans-serif;
+         
+        
+    }
+
+    .container{
+       
+        padding: 0% 0% 0% 0%;
+
+    }
+
+    #logo{
+        width: 7%;
+        height: auto;
+        margin: 1%;
+        position: absolute;
+        padding:1%;}
+
+        i{
+            margin: 5px 5px 5px 0px;
+          }
+
+          .derecha a {
+
+            background-color: #1A5B6D;
+            color:#94CDD6;
+            text-decoration: none;
+            margin: 0px 10px 10px 0px;
+            
+          }
+
+    .logo2{
+        
+        margin: 100px 30% 0px 0px;
+        z-index: 100;
+        font-size: 35px;
+        font-weight:bolder;
+        
+        
+    }
+div.logo2{
+ position: relative;
+ 
+ 
+}
+    
+    .logo2 img{
+       width: 15% ;
+       position: relative;
+      
+      
+    }
+
+    #titulologo{
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    }
+   
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+#Exhibition h2{
+    position: relative;
+    margin-top: 40px;
+}
+
+
+ #Exhibition{
+     
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+#Exhibition img{
+width: 40%;
+}
+
+#Exhibition #primerparrafo{
+    position: absolute;
+    width: 45%;
+    right: 30px;
+    top: 500px;
+    font-size: 16px;
+    justify-content: justify;
+}
+
+ #Exhibition #primersubtitulo{
+    position: absolute;
+    top:450px;
+    right: 150px;
+    font-size: 24px;
+}
+
+#Exhibition #segundoparrafo{
+    position: absolute;
+    width: 50%;
+    right: 5px;
+    top: 850px;
+    font-size: 16px;
+    justify-content: justify;
+}
+
+ #Exhibition #segundosubtitulo{
+    position: absolute;
+    top:800px;
+    right: 250px;
+    font-size: 24px;
+}
+
+#Exhibition #tercerparrafo{
+    position: absolute;
+    width: 50%;
+    right: 20px;
+    top: 1080px;
+    font-size: 15px;
+    
+    justify-content: justify;
+}
+
+ #Exhibition #tercersubtitulo{
+    position: absolute;
+    top:1040px;
+    right: 250px;
+    font-size: 24px;
+}
+
+#Exhibition #tercerafoto{
+    margin-top: 50px;
+}
+#Location{
+    margin-top: 150px;
+}
+
+article img{
+    width: 100%;
+}
+
+#Visit img{
+
+    width: 50%;
+    padding: 2%;
+
+}
+ h3{
+    font-size: 24px;
+}
+
+#cuartosubtitulo{
+    
+    position: absolute;
+    right: 80px;
+    top: 1900px;
+    
+}
+#cuartoparrafo{
+    position: absolute;
+    right: -11px;
+    top: 1970px;
+    line-height : 20px;
+}
+
+ #quintosubtitulo{
+   position: absolute;
+   font-size: 24px;
+    right: 80px;
+    top:2165px;
+    
+}
+
+#quintoparrafoA{
+    position: absolute;
+    width: 40%;
+    right: 10px;
+    top:2200px;
+
+}
+#quintoparrafoB{
+    position: absolute;
+    width: 40%;
+    right: 10px;
+    top:2325px;
+
+}
+#sextosubtitulo{
+    position: absolute;
+    font-size: 24px;
+     right: 140px;
+     top:2470px;
+     
+ }
+ 
+ #sextoparrafo{
+     position: absolute;
+     width: 40%;
+     right: 20px;
+     top:2500px;
+ 
+ }
+
+
+#piedepag{
+    display: block;
+    visibility: visible;
+    bottom: 10px;
+    position: relative;
+   
+}
+
+    .right{
+        position:absolute;
+        top: 3974px;
+        vertical-align: bottom;
+         width: 100%;
+         height: 30px;
+         text-align: center;
+         background-color: #1A5B6D;
+    
+    
+    }
+
+    .right i{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .anchototal a:hover{
+        background: #94CDD6;
+        color:#1A5B6D;}
+
+    .right a:hover{
+        background: #94CDD6;
+        color:#1A5B6D; 
+        border-radius: 5px;
+       
+        
+    }
+    .left a:hover{
+        background: #94CDD6;
+        color:#1A5B6D; 
+        border-radius: 10px;
+        padding: 2px;
+    }
+a{
+    text-decoration: none;
+    color:#94CDD6;
+    margin: 15px 10px 10px 15px;
+
+}
+    .left{
+       
+        
+        position:absolute;
+       top: 4000px;
+       vertical-align: 1px;
+        width: 100%;
+        text-align: center;
+        background-color: #1A5B6D;
+        margin-bottom: 10px;
+        height: 30px;
+  
+        
+        }
+
+      
+
+    }
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,415 @@
+ /* ruptura a partir de 1000px */
+
+ @media screen and (max-width: 1400px) and (min-width: 1000px) {
+
+    body {
+       
+        
+    }
+   
+
+    #logo{
+width: 8%;
+height: auto;
+top: 1%;
+position: static;
+
+
+}
+
+.container{
+  
+  background-color: #1A5B6D;
+}
+.contenedor{
+ display: flex;
+ 
+  
+ 
+}
+
+#Exhibition {
+  display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+
+#Exhibition .M-mitad {
+  flex-direction: row;
+  justify-content: space-between 10px;
+}
+
+
+
+
+
+#titulologo{
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+
+
+
+.nikola{
+  margin-left: 140px;
+  width: 50%;
+}
+.derecha{
+  
+ 
+  flex-direction: row;
+ width: 50%;
+ margin-right: 150px;
+ margin-top: 15px;
+  
+}
+.izquierda{
+  
+  width: 70%;
+  margin-right: 150px;
+  margin-top: 5px;
+}
+
+
+
+    .video{
+      visibility: visible;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        
+      }
+      .video iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .logo2{
+ 
+        margin-top: 190px;
+        position: relative;
+        bottom: 150px;
+        
+        
+        
+      }
+      #inicioseccion{
+        top: 80px;
+        font-size: 25px;
+        clear: both;
+        
+      }
+
+      #teslita{
+        display: none;
+      }
+
+      #soloescritorio{
+        display: block;
+        position: absolute;
+        width: 30%;
+        height: 10%;
+        top: 600px;
+        left: 95px;
+      }
+
+      #playvideo{
+
+        display: none;
+      }
+
+      .L-tercio{
+        width: 100%;
+      }
+
+      .M-mitad{
+        width: 100%;
+       
+      }
+
+      #Exhibition img{
+        width: 60%;
+        }
+
+      #Exhibition #primerparrafo{
+        position: absolute;
+        width: 30%;
+        left: 55px;
+        top: 700px;
+        font-size: 14px;
+        justify-content: justify;
+    }
+    
+
+
+#Exhibition h2  {
+ position: absolute;
+ top: 400px;
+ font-size: 30px;
+
+ }
+    
+     #Exhibition #primersubtitulo{
+        position: absolute;
+        width: 50%;
+        top:640px;
+       left: 0px;
+        font-size: 18px;
+        z-index: 3000;
+    }
+
+    #Exhibition #segundoparrafo{
+      position: absolute;
+      width: 25%;
+      left: 405px;
+      top: 700px;
+      font-size: 14px;
+      justify-content: justify;
+  }
+  
+   #Exhibition #segundosubtitulo{
+     z-index: 2000;
+    position: absolute;
+    top: 640px;
+    font-size: 18px;
+    left: 250px;
+  }
+  
+  #Exhibition #tercerparrafo{
+    position: absolute;
+    width: 25%;
+    left: 725px;
+    top: 700px;
+    font-size: 14px;
+    justify-content: justify;
+  }
+  
+   #Exhibition #tercersubtitulo{
+    z-index: 2000;
+    position: absolute;
+    top: 640px;
+    font-size: 18px;
+    left: 785px;
+  }
+
+  #Visit #cuartosubtitulo{
+    position: absolute;
+    width: 50%;
+    top:1760px;
+   left:1px ;
+    font-size: 18px;
+    z-index: 3000;
+  }
+
+  #Visit #cuartoparrafo{
+    position: absolute;
+    top:1800px;
+    left:70px  ;
+    font-size: 14px;
+  }
+  #Visit #quintosubtitulo{
+    position: absolute;
+    width: 50%;
+    top:1760px;
+   left:240px ;
+    font-size: 18px;
+    z-index: 3000;
+  }
+
+  #Visit #quintoparrafoA{
+    width: 30%;
+    position: absolute;
+    top:1805px;
+    left:365px;
+    font-size: 13px;
+  }
+  #Visit #quintoparrafoB{
+    width: 30%;
+    position: absolute;
+    top:1875px;
+    left:365px ;
+    font-size: 13px;
+  }
+  #Visit #sextosubtitulo{
+    position: absolute;
+    width: 50%;
+    top:1760px;
+   left:550px ;
+    font-size: 18px;
+    z-index: 3000;
+     
+ }
+ 
+ #Visit #sextoparrafo{
+   width: 30%;
+  position: absolute;
+  top:1805px;
+  left:700px  ;
+  font-size: 13px;
+ 
+ }
+  
+      
+      .logo2 img{
+        width: 5%;
+      }
+    
+
+    .ideas{
+      display: none;
+    }
+
+    .mapas {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      
+    }
+    .mapas iframe {
+      position: absolute;
+     
+      left: 0;
+      width: 100%;
+      height: 50%;
+    }
+    #inicioseccion{
+      z-index: 3000;
+position: relative;
+    }
+  
+
+  #soloescritorio{
+z-index: 1500;
+
+    height: auto;
+   top: 500px;
+    
+  }
+
+  #fotocoleccion{
+margin-left: 100px;
+margin-top: 150px;
+  }
+
+ #fotoreplicas{
+
+  margin-left: 100px;
+margin-top: 150px;
+}
+
+
+
+#contactos{
+ position: absolute;
+ bottom: 350px;
+ 
+}
+#Contact{
+  
+position: absolute;
+  top: 1950px;
+  
+  width: 100%;
+  height: auto;
+}
+#Location #googlemaps{
+  margin-top: 400px;
+}
+
+
+
+#Visit img{
+  width: 90%;
+ position: relative;
+bottom: 200px;
+left: 25px;
+}
+
+#visitas{
+  
+  position: absolute;
+  z-index: 3000;
+  top: 1350px;
+
+
+}
+
+
+.right{
+  position:absolute;
+  top: 2570px;
+  vertical-align: bottom;
+   width: 100%;
+   height: 30px;
+   text-align: center;
+   background-color: #1A5B6D;
+
+
+}
+
+
+
+
+.left{
+       
+        
+  position:absolute;
+ top: 2600px;
+ vertical-align: 1px;
+  width: 100%;
+  text-align: center;
+  background-color: #1A5B6D;
+  margin-bottom: 10px;
+  height: 30px;
+
+  
+  }
+  .right a:hover{
+    background: #94CDD6;
+    color:#1A5B6D; 
+    border-radius: 5px;
+   
+    
+}
+.left a:hover{
+    background: #94CDD6;
+    color:#1A5B6D; 
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#Contact{
+  margin-top: 100px;
+}
+
+#Contact form{
+  
+  display: row;
+ 
+}
+
+#Contact .L-mitad{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 15px;
+}
+
+#lastparrafo{
+ 
+  width: 90%;
+ 
+ padding: 1%;
+  font-size: 11px;
+  
+}
+ 
+}
+ 
+
+    
+
+   

@@ -1,0 +1,324 @@
+
+
+/* Notas 
+
+No me coge las variables de colores
+
+  element {
+    --colorclaro: #94CDD6;
+    --coloroscuro: #1A5B6D;
+    
+  }
+
+* {
+  background-color: var(--colorclaro);
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------
+diseño mobile first web responsiva*/
+*{
+
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: #FaFaFa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1, h2, h3{
+  color:#94CDD6; 
+  text-align: center;
+  padding: 2% 0% 0% 0%;
+  
+}
+
+h2{
+  display: block;
+}
+#googlemaps{
+  width: 100%;
+}
+
+p{
+ padding: 2%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+a{
+  font-weight: bold;
+}
+
+.container{
+  width: 100%;
+  
+}
+
+
+
+main{
+  
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 1;
+  z-index: 10;
+  
+  
+  
+}
+
+p a {
+  color:#94CDD6;
+  text-decoration: none;
+
+}
+.contenedor i{
+  color:#94CDD6;
+  margin-left: 1%;
+}
+.contenedor a img{
+  position: absolute;
+  top: -15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  left: 0;
+  float: left;
+}
+
+
+#logo{
+width: 8%;
+height: auto;
+margin: 2%;
+position: absolute;
+padding:1%;
+
+}
+
+nav{
+  width: 100%;
+  font-weight: bold;
+  
+}
+
+i{
+  margin: 0px 5px 5px 0px;
+}
+
+.nikola{
+  width: 100%;
+  height: auto;
+}
+
+.izquierda div  {
+  
+ display: flex;
+ 
+}
+
+.izquierda a{
+  background-color: #1A5B6D;
+  text-decoration: none;
+  color:#94CDD6;
+  
+}
+
+.derecha {
+ 
+  list-style: none;
+  text-decoration: none;
+  height: auto;
+  width: 100%;
+  
+  
+}
+
+.derecha a {
+
+  background-color: #1A5B6D;
+  color:#94CDD6;
+  text-decoration: none;
+  margin: 0px 3px 3px 0px;
+  
+}
+
+.video{
+  visibility: hidden;
+}
+
+.ideas{
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  
+}
+
+.ideas img{
+
+  top: 0;
+  left: 50%;
+}
+
+header{
+  display: block;
+  top: 250px;
+  left: 50%;
+  text-align: center;
+}
+
+article {
+  position: absolute;
+ top: 200px;
+ 
+}
+
+article h2{
+  margin-top: 65px;
+}
+
+.logo2{
+ width: 100%;
+  margin-top: 250px;
+  
+  
+  top: 0;
+  
+  
+  
+}
+
+div.izquierda a:hover{
+  background-color: #94CDD6;
+  color:#1A5B6D;
+}
+div.derecha a:hover{
+  background-color: #94CDD6;
+  color:#1A5B6D;
+}
+
+div.derecha i:hover{
+  background-color: #94CDD6;
+  color:#1A5B6D;
+}
+
+
+
+.logo2 img{
+  width: 25%;
+}
+
+
+#Exhibition{
+ 
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+#Exhibition img{
+  padding: 1%;
+}
+#Visit img{
+  padding: 1%;
+}
+.mapas {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  
+}
+.mapas iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+form{
+  padding: 3%;
+}
+
+form input{
+  width: 100%;
+  
+}
+
+textarea{
+  width: 100%;
+}
+
+table{
+  
+  width: 100%;
+  
+}
+
+table td tr{
+  
+width: 100%;
+  
+}
+
+
+input.anchototal{
+  margin-left: 1px;
+  
+}
+
+
+
+.send input {
+  width: 90px;
+  height: 30px;
+  background-color: #1A5B6D;
+  color:#94CDD6;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.send input:hover {
+  width: 90px;
+  height: 30px;
+  background-color:#94CDD6;
+  color:#1A5B6D;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.L-mitad p i{
+  color: black;
+}
+#soloescritorio{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
